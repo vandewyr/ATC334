@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gator.squadron.RetrievePdf"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/faaReg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:onClick="downloadFaaPdf"
+            android:text="7110.65w"
+            android:textColor="@color/colorPrimary"
+            android:textColorLink="@color/black" />
+
+        <TextView
+            android:id="@+id/goCalendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/faaReg"
+            android:layout_alignStart="@+id/faaReg"
+            android:layout_below="@+id/faaReg"
+            android:layout_marginTop="39dp"
+            android:onClick="loadCalendar"
+            android:text="Calendar"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+
+</LinearLayout >

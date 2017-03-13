@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "414952663197",
+    "firebase_url": "https://squadron334-7f215.firebaseio.com",
+    "project_id": "squadron334-7f215",
+    "storage_bucket": "squadron334-7f215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414952663197:android:bbd4df6e5ac822b6",
+        "android_client_info": {
+          "package_name": "com.gator.squadron"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414952663197-snjbcdkqn1vbbeehhakqge5l13csle7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gator.squadron",
+            "certificate_hash": "49bf2d5f964d63ba38026678cdbacab0710cd4d1"
+          }
+        },
+        {
+          "client_id": "414952663197-0oaqd1cgbllu4ifb6ma10frneocbu7g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl77n8tGP7wypdePmlWgcX5_scmaeiInk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414952663197-0oaqd1cgbllu4ifb6ma10frneocbu7g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
