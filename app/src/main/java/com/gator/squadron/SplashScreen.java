@@ -41,7 +41,7 @@ public class SplashScreen extends AppCompatActivity {
     }
 
     public void nextActivity(){
-        Intent intent = new Intent(this, RetrievePdf.class);
+        Intent intent = new Intent(this, TowerMain.class);
         startActivity(intent);
     }
 }

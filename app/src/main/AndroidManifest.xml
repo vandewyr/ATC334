@@ -20,9 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".tower" />
         <activity android:name=".RetrievePdf" />
-        <activity android:name=".Calendar"></activity>
+        <activity android:name=".Calendar" />
+        <activity
+            android:name=".TowerMain"
+             />
+        <activity
+            android:name=".Grube"
+            android:screenOrientation="sensorLandscape" />
     </application>
 
 </manifest>
