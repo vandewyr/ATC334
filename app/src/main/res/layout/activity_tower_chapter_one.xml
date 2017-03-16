@@ -11,16 +11,15 @@
     android:fillAfter="true">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/f22Image"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        app:srcCompat="@drawable/f22"
-        android:rotation="130"
-        android:layout_marginRight="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
         android:layout_marginTop="13dp"
-        />
+        android:rotation="130"
+        app:srcCompat="@drawable/f22" />
 </RelativeLayout>
