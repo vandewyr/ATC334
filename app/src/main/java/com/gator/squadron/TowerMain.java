@@ -31,7 +31,7 @@ public class TowerMain extends AppCompatActivity {
         chapters.add("Chapter 8");
         chapters.add("Chapter 9");
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, chapters);
+        final ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, chapters);
 
         list.setAdapter(adapter);
 
@@ -41,11 +41,11 @@ public class TowerMain extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     final int position, long id) {
 
-                String nunya = (String)adapter.getItemAtPostion(position);
-                if(list.getSelectedItem().equals(nunya)){
-                    System.out.println("EMPTY");
-                }else{
-                    System.out.println("THIS WAS SELECTED:   "+list.getSelectedItem().toString());
+                String nunya = (String)adapter.getItem(position);
+                nunya = nunya.toLowerCase();
+                nunya = nunya.replaceAll("\\s","");
+                if(nunya.equals("chapter1")){
+                    grubeActivity(view);
                 }
             }
         });

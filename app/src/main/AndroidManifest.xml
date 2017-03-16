@@ -22,12 +22,15 @@
         </activity>
         <activity android:name=".RetrievePdf" />
         <activity android:name=".Calendar" />
-        <activity
-            android:name=".TowerMain"
-             />
+        <activity android:name=".TowerMain" />
         <activity
             android:name=".Grube"
-            android:screenOrientation="sensorLandscape" />
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".TowerChapterOne"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            />
     </application>
 
 </manifest>
